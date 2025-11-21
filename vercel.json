@@ -1,3 +1,16 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/games",
+      "destination": "https://wp.translationsr.com/games"
+    },
+    {
+      "source": "/games/:path*",
+      "destination": "https://wp.translationsr.com/games/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
